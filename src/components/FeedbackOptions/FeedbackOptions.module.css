@@ -1,0 +1,21 @@
+.btnList {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  gap: 10px;
+}
+
+.optionBtn {
+  display: flex;
+  justify-content: center;
+  padding: 10px 30px;
+  max-width: 85px;
+  background-color: rgb(168, 132, 93);
+  color: var(--light-color);
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.optionBtn:hover {
+  background-color: rgb(79, 52, 24);
+}

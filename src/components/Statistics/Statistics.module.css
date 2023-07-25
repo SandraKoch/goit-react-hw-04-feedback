@@ -1,0 +1,10 @@
+.feedbackList {
+  padding: 0px 15px 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.result {
+  font-weight: 600;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 19px;
+}

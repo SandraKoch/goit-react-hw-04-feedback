@@ -1,15 +1,54 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize;
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: var(--light-color);
+  background-color: var(--primary-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-size: cover;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(47, 48, 58, 0.4) 0%,
+      rgba(47, 48, 58, 0.4) 50%
+    ),
+    url('https://img.freepik.com/free-photo/coffee-beans-with-props-making-coffee_1220-4536.jpg?w=1060&t=st=1689365325~exp=1689365925~hmac=abb2e77ae526b6358a1a95533c279c4e8616d91b88a26b18c71b121817db94f2');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --primary-color: rgb(0, 0, 0);
+  --secondary-color: rgb(150, 150, 150);
+  --bg-color: rgb(134 134 134 / 12%);
+  --light-color: rgb(255, 255, 255);
+  --btn-color: rgb(116, 113, 113);
 }
